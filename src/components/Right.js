@@ -87,6 +87,15 @@ function Right({ scrollPosition, resumeURL }) {
                     <div className="project-title">online resume</div>
                     <p className="project-desc">An online version of my CV I made with React. Had lots of fun with custom CSS animations as well. </p>
                 </div>
+                <div className="project-item">
+                  <a className="project-title" href="https://misalagp.github.io/fonticci/" target="_blank">fonticci</a>
+                    <p className="project-desc">Google's Creative Type Combinations made with HTML, CSS/SCSS and Javascript. There's also a fun little game 
+                    so you can test how well you can differentiate between fonts. Have fun!</p>
+                </div>
+                <div className="project-item">
+                  <a className="project-title" href="https://codepen.io/p0waqqatsi/pens/public" target="_blank">other code related things</a>
+                    <p className="project-desc">Check out my Codepen, I create fun little things from time to time. </p>
+                </div>
             </div>
         </div>
         <a className="resume" href={CV} download="CV" target="_blank" rel="noopener noreferrer"><div className="resume-link">See my full resume</div></a>
